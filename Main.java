@@ -14,7 +14,7 @@ public class Main {
     variables.put('d', 5);
     variables.put('e', 6); 
 
-    // int result = Calculator.evaluatePostfix(postfix, variables);
-    // System.out.prinltn("Evaluation Result: " + result); 
+    int result = Calculator.evaluatePostfix(postfix, variables);
+    System.out.println("Evaluation Result: " + result); 
   }
 }
